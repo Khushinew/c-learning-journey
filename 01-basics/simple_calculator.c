@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    char op;
+    printf("Enter first number:");
+    scanf("%d",&a);
+    printf("Entse second number:");
+    scanf("%d",&b);
+    
+    printf("Sum: %d\n",a+b);
+    printf("Difference: %d\n",a-b);
+    printf("Product: %d\n",a*b);
+    printf("Quotient: %d",a/b);
+}
